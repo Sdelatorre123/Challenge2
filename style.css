@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(119, 15, 238,.5);
+}
+
+
+h1,p{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(119, 15, 238)
+}
+header h1 {
+    background-color: black;
+    padding: 10px 5% 10px 18%;
+    font-size: x-large;
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: larger;
+}
+
+
+
